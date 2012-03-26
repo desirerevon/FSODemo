@@ -60,10 +60,11 @@ var d2 = new Date(2012,01,14);
 //4:Given a string version of a number such as "42", return the value as an actual Number, such as 42.
 
 
-var actulalNum = function(){
+var actualNum = function(){
 var onlyNum = parseInt("42")
 
 };
+return actualNum
  
 
  //5:Find the smallest value in an array that is greater than a given number.
