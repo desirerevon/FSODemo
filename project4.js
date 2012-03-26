@@ -19,9 +19,9 @@ var confirmNum = function(number){
              
              if (regEx.test(number)){
              
-                var confirmValid = ("This number is invalid.");
+                var confirmValid = ("This number is ivalid.");
              	}else{
-             	var confirmValid = ("This is a valid number.");
+             	var confirmValid = ("This is not a valid number.");
              
              };
              return confirmValid 
@@ -35,11 +35,11 @@ var checkUrl = function (url){
 			var regEx = /^(http[s]:)/
 			if (regEx.test(url)){
 			
-			   var urlValid = ("This is not a valid url.")
+			   var urlValid = ("This is a valid url.")
 			   
 			   }else{
 			   
-			   var urlValid = ("This is a valid url.")
+			   var urlValid = ("This is not a valid url.")
 			
 			};
   			return urlValid           
