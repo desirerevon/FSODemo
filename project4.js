@@ -11,6 +11,12 @@ alert("JavaScript works!");
 
 var confirmNum = function(number){
              var regEx = /^\(?([0-9]{3})?[-. ]([0-9]{3})[-. ]([0-9]{4})$/;
+              // ^ tells javascript to identify the string inside of my code 
+             // ? tells javascript that the number will have an area code within parenthesis 
+             // [0-9] tells js that the number can be any within that range and {3} says thats the amount it can contain
+             //[-. ] lets js know that there is a - in between numbers 
+             // $ also tells java to search through the script for the string
+             
              if (regEx.test(number)){
              
                 var confirmValid = ("This number is invalid.");
